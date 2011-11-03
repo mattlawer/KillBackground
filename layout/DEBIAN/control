@@ -1,0 +1,10 @@
+Package: com.MathieuBolard.KillBackground
+Name: KillBackground
+Depends: mobilesubstrate, firmware (>= 4.0), preferenceloader
+Version: 1.2.3
+Architecture: iphoneos-arm
+Description: Kill background apps with style !
+Maintainer: Mathieu Bolard (mattlawer) <mattlawer08@gmail.com>
+Author: Mathieu Bolard (mattlawer) <mattlawer08@gmail.com>
+Depiction: http://mathieubolard.com/mobile/depiction/killbackground.html
+Section: Tweaks

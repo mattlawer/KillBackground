@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>KillBackground</string>
+			<key>footerText</key>
+			<string>Disable this if you want to hide the button when the icons are not in wiggle mode.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.mathieubolard.killbackgroundpreferences</string>
+			<key>key</key>
+			<string>Left</string>
+			<key>label</key>
+			<string>Button on the left :</string>
+			<key>PostNotification</key>
+			<string>com.mathieubolard.killbackground.prefs</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.mathieubolard.killbackgroundpreferences</string>
+			<key>key</key>
+			<string>AlwaysVisible</string>
+			<key>label</key>
+			<string>Always Visible :</string>
+			<key>PostNotification</key>
+			<string>com.mathieubolard.killbackground.prefs</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Will display 2 big buttons (left+right) instead of one. (better on the iPad)</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.mathieubolard.killbackgroundpreferences</string>
+			<key>key</key>
+			<string>AutoHide</string>
+			<key>label</key>
+			<string>Auto Close Switcher :</string>
+			<key>PostNotification</key>
+			<string>com.mathieubolard.killbackground.prefs</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>alternateColors</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.mathieubolard.killbackgroundpreferences</string>
+			<key>key</key>
+			<string>KillMusic</string>
+			<key>label</key>
+			<string>Kill Music :</string>
+			<key>PostNotification</key>
+			<string>com.mathieubolard.killbackground.prefs</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.mathieubolard.killbackgroundpreferences</string>
+			<key>key</key>
+			<string>BigButtons</string>
+			<key>label</key>
+			<string>Big Buttons :</string>
+			<key>PostNotification</key>
+			<string>com.mathieubolard.killbackground.prefs</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Copyright © 2011 Mathieu Bolard 
+(@mattlawer)</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>💰 Donate 💰</string>
+			<key>action</key>
+			<string>donate:</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>KillBackground</string>
+</dict>
+</plist>

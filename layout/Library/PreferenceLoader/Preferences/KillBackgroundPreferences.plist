@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>entry</key>
+	<dict>
+		<key>bundle</key>
+		<string>KillBackgroundPreferences</string>
+		<key>cell</key>
+		<string>PSLinkCell</string>
+		<key>detail</key>
+		<string>KillBackgroundPreferencesListController</string>
+		<key>isController</key>
+		<true/>
+		<key>icon</key>
+		<string>KB_icon.png</string>
+		<key>label</key>
+		<string>KillBackground</string>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,24 @@
+#!/bin/bash
+
+declare -a cydia
+cydia=($CYDIA)
+
+  
+echo "Thanks for installing this tweak, now you should restart your SpringBoard"
+echo "Follow @mattlawer on twitter.";
+echo "And if you like the tweak, don't forget to donate :p";
+
+if [[ ${CYDIA+@} ]]; then
+    eval "echo 'finish:restart' >&${cydia[0]}"
+else
+    echo -n -e "will Respring in 3s"
+    sleep 1
+    echo -n -e "\rwill Respring in 2s"
+    sleep 1;
+    echo -e "\rwill Respring in 1s  !!!"
+    echo -e "\nReady !!?"
+    sleep 1;
+    killall -9 SpringBoard 
+fi
+
+#end script
